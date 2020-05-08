@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import Core from './components/core'
 import './App.css';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h1>a test from 刀哥 and 杯哥。</h1>
+      <Core name="main kernel"/>
       </header>
     </div>
   );
